@@ -5,7 +5,6 @@ import { TabsModule } from 'ngx-bootstrap/tabs'
 import { ToastrModule } from 'ngx-toastr';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
-
 @NgModule({
   declarations: [],
   imports: [
@@ -15,7 +14,6 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-left'
     }),
-    NgxGalleryModule
   ],
   exports: [
     BsDropdownModule,
